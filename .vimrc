@@ -16,7 +16,7 @@ set tabstop=8
 set softtabstop=4
 set expandtab
 set shiftwidth=4
-set textwidth=79
+"set textwidth=79
 set smartindent cinwords=if,elif,else,for,while,except,finally,def,class
 
 set clipboard=unnamed
