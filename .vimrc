@@ -1,11 +1,10 @@
 set nocompatible
-set filetype off
+filetype off
 
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'tpopt/vim-fugitive'
 
 call vundle#end()
 filetype plugin indent on
@@ -15,7 +14,6 @@ set hlsearch
 set ai
 set si
 set bs=indent,eol,start
-set bg=dark
 set title
 set wrap
 set ruler
@@ -47,3 +45,6 @@ au BufReadPost *
 \ if line("'\"") > 0 && line("'\"") <= line("$") |
 \ exe "norm g`\"" |
 \ endif
+
+"color scheme
+set background=dark
