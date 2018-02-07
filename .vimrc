@@ -24,9 +24,6 @@ set softtabstop=4
 set expandtab
 set shiftwidth=4
 
-set ts=4
-set sts=4
-set sw=1
 set laststatus=2
 set history=256
 set showmatch
